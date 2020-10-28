@@ -1,0 +1,28 @@
+button{
+    background: #646464;
+    color: aquamarine;
+}
+
+button:hover{
+    /* button hover es una accion: cuando se pasa el mause sobre el boton  */
+    background: #794c74;
+}
+
+button:active{
+    background: #aa9736;
+}
+
+a{ 
+    background: black;
+    color: white;
+    margin-top: 50px;
+}
+
+a:hover{
+    background: white;
+    color: black;
+}
+
+.top{
+    margin-top: 10px;
+}

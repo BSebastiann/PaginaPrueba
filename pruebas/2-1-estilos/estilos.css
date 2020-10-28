@@ -1,0 +1,24 @@
+/* Distintos tipos de agregar estilos a los h1 o escritura */
+h1n1 {
+    color:burlywood; 
+        font-size: 50px /*font-size es el tamaño de la letra  */
+    }
+#unico{
+    color: darkblue;
+    font-size: 50px;
+    }
+h1{
+    color: hotpink;
+    font: 70px;
+}
+
+.verde{
+   color: green;
+    }
+
+.fondo{
+    background-color: #444;
+    /* background es para el fondo de las cosas, apor ejemplo el fondo del parrafo */
+}
+ 
+

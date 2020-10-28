@@ -1,0 +1,22 @@
+h1{
+    background-color: #333456;
+    /* margin-left: 100px;
+    margin-bottom: 200px; */
+
+    /* se puede darle margen con valores distintos o un margen completo con el mismo valor */
+    /* margin: 100px; */
+    
+    /* la direcciones del margen son 1° arriba y abajo, 2°isquierda y derecha */
+    /* margin: 50px 50px;  */
+
+    margin: 100px 10px 20px 500px;
+    /* 1° arriba, 2°izquierda, 3° abajo 4° derecha */
+
+}
+
+p{
+    background: #a40a3c;
+    padding: 100px;
+    /* padding son los margenes internos y margin los externos
+     */
+}
