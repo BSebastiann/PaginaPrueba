@@ -1,0 +1,58 @@
+html{
+    background-image: url("https://www.solofondos.com/wp-content/uploads/2015/11/new-fondo1lateral.jpg");
+}
+.centro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1{
+    font-size: 100px;
+    color: lightgrey;
+}
+.logo{
+    height: 500px;
+    width: 500px;
+    margin-left: 25%;
+}
+.negro{
+    color: black;
+    font-size: 300;
+}
+a{
+    font-size: 30px;
+}
+a:hover{
+    background: black;
+    color: rgb(0, 103, 167);
+}
+
+.submenu{
+    display: flex
+}
+.lenguaje{
+    display: flex;
+    padding: 25px;
+}
+.lista{
+    margin: 25px;
+}
+
+.lenguajeTitulo{
+    background-color: rgba(0, 255, 255, 0.25);
+    margin: 10px;
+    border-radius: 10px;
+    width: 45%;
+}
+.imgLeng{
+    margin: 25px;
+    height: 400px;
+    width: 200px;
+}
+
+
+.grupo{
+    padding: 50px;
+    display: flex
+}
