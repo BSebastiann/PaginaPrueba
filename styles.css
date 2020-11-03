@@ -1,14 +1,25 @@
 html{
     background-image: url("https://www.solofondos.com/wp-content/uploads/2015/11/new-fondo1lateral.jpg");
 }
-
 .centro{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-
+h1{
+    font-size: 100px;
+    color: lightgrey;
+}
+.logo{
+    height: 500px;
+    width: 500px;
+    margin-left: 25%;
+}
+.negro{
+    color: black;
+    font-size: 300;
+}
 a{
     font-size: 30px;
 }
@@ -17,15 +28,23 @@ a:hover{
     color: rgb(1, 3, 102);
 }
 
+.submenu{
+    display: flex
+}
 .lenguaje{
     display: flex;
     padding: 25px;
 }
 .lista{
     margin: 25px;
-    display: flex;
 }
 
+.lenguajeTitulo{
+    background-color: rgba(0, 255, 255, 0.25);
+    margin: 10px;
+    border-radius: 10px;
+    width: 45%;
+}
 .imgLeng{
     margin: 25px;
     height: 400px;
@@ -37,7 +56,3 @@ a:hover{
     padding: 50px;
     display: flex
 }
-
-nahuel comilon
-
-
