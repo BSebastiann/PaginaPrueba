@@ -70,6 +70,39 @@ a:hover{
 
 
 }
+@media (min-width: 560|px) {
+    .submenu{
+        display: flex
+    }
+    .divCen{
+        width: 100%;
+        align-items: center;
+    }
+    
+    h1{
+    font-size: 100px;
+    color: lightgrey;
+    text-align: center;
+    }
+
+    .lenguajeTitulo{
+        background-color: rgba(0, 255, 255, 0.25);
+        margin: 10px;
+        border-radius: 10px;
+        width: 45%;
+    }
+    
+    .logo{
+    height: 500px;
+    width: 500px;
+    margin-left: 25%;
+    }
+
+    .negro{
+        color: black;
+        font-size: 40px;
+    }
+}
 @media (min-width: 1121px) {
     .submenu{
         display: flex
