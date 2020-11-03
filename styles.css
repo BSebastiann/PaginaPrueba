@@ -7,19 +7,7 @@ html{
     margin-right: auto;
     width: 50%;
 }
-h1{
-    font-size: 100px;
-    color: lightgrey;
-}
-.logo{
-    height: 500px;
-    width: 500px;
-    margin-left: 25%;
-}
-.negro{
-    color: black;
-    font-size: 300;
-}
+
 a{
     font-size: 30px;
 }
@@ -28,9 +16,7 @@ a:hover{
     color: rgb(0, 103, 167);
 }
 
-.submenu{
-    display: flex
-}
+
 .lenguaje{
     display: flex;
     padding: 25px;
@@ -39,12 +25,7 @@ a:hover{
     margin: 25px;
 }
 
-.lenguajeTitulo{
-    background-color: rgba(0, 255, 255, 0.25);
-    margin: 10px;
-    border-radius: 10px;
-    width: 45%;
-}
+
 .imgLeng{
     margin: 25px;
     height: 400px;
@@ -55,4 +36,70 @@ a:hover{
 .grupo{
     padding: 50px;
     display: flex
+}
+
+@media (max-width: 600px) {
+    .submenu{
+    }
+    
+    h1{
+    font-size: 40px;
+    color: lightgrey;
+    margin: 10%;
+    }
+
+    .lenguajeTitulo{
+        background-color: rgba(0, 255, 255, 0.25);
+        margin: 10px;
+        border-radius: 10px;
+        width: 90%;
+    }
+        
+    .logo{
+    width: 90%;
+    margin-left: 5%;
+    }
+    .negro{
+        color: black;
+        font-size: 20px;
+    }
+    .divCen{
+        width: 100%;
+        align-items: center;
+    }
+
+
+}
+@media (min-width: 601px) {
+    .submenu{
+        display: flex
+    }
+    .divCen{
+        width: 100%;
+        align-items: center;
+    }
+    
+    h1{
+    font-size: 100px;
+    color: lightgrey;
+    text-align: center;
+    }
+
+    .lenguajeTitulo{
+        background-color: rgba(0, 255, 255, 0.25);
+        margin: 10px;
+        border-radius: 10px;
+        width: 45%;
+    }
+    
+    .logo{
+    height: 500px;
+    width: 500px;
+    margin-left: 25%;
+    }
+
+    .negro{
+        color: black;
+        font-size: 40px;
+    }
 }
