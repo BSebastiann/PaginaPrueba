@@ -70,7 +70,7 @@ a:hover{
 
 
 }
-@media (min-width: 560|px) {
+@media screen and (min-width: 560|px) {
     .submenu{
         display: flex
     }
