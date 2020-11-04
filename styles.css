@@ -29,22 +29,20 @@ a:hover{
 }
 
 .submenu{
-    display: flex
-}
-.lenguaje{
     display: flex;
-    padding: 25px;
 }
-.lista{
-    margin: 25px;
-}
-
 .lenguajeTitulo{
     background-color: rgba(0, 255, 255, 0.25);
     margin: 10px;
     border-radius: 10px;
     width: 45%;
 }
+.lenguaje{
+    display: flex;
+    padding: 25px;
+}
+
+
 .imgLeng{
     margin: 25px;
     height: 400px;
@@ -52,7 +50,19 @@ a:hover{
 }
 
 
-.grupo{
-    padding: 50px;
-    display: flex
+@media( max-width: 600px ){
+
+    .submenu{
+        display: block;
+    }
+    .lenguajeTitulo{
+        width: 90%;
+    }
+    .logo{
+        width: 90%;
+    }
+    h1{
+        font-size: 30px;
+    }
+
 }
